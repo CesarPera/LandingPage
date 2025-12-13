@@ -1,8 +1,6 @@
 
 import { useEffect } from "react";
 import './App.css'
-import Logo from "./assets/Logo.png";
-import Portada from "./assets/Portada.jpg";
 
 function LandingPage() {
   useEffect(() => {
@@ -28,7 +26,7 @@ function LandingPage() {
         <header className="fixed top-0 left-0 z-50 w-full flex justify-center">
           <div className="w-[60%] bg-white shadow-xl/30 flex items-center justify-center gap-4 py-3 rounded-b-2xl">
             <img
-              src={Logo}
+              src="./src/assets/logo.png"
               alt="Cesar Studio Web"
               className="w-12 h-12"
             />
@@ -60,7 +58,7 @@ function LandingPage() {
             <div className="md:col-span-6 relative hidden md:block h-full">
               <div className="absolute left-0 top-0 h-full w-32 bg-blue-600 rounded-r-[120%] z-10" />
               <img
-                src={Portada}
+                src="./src/assets/portada.jpg"
                 alt="Imagen portada"
                 className="h-full w-full object-cover"
               />
